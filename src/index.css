@@ -1,0 +1,50 @@
+.windowsContainer {
+  width: 750px;
+  height: 302px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.windows {
+  position: relative;
+  top: 12.3%;
+  height: 150px;
+  width: 480px;
+  overflow: hidden;
+  background: red;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gift {
+  /* width: 100px; */
+  width: 150px;
+  height: 150px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.giftContainer {
+  /* overflow: hidden; */
+  list-style-type: none;
+  margin: 0 auto;
+  width: 150px;
+  height: 100%;
+  margin-block-start: 0;
+  padding-inline-start: 0;
+}
+
+.imgContainer {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.startBtn {
+  position: absolute;
+  height: 61px;
+  width: 246px;
+  bottom: 28px;
+  border-radius: 30px;
+}
